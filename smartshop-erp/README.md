@@ -1,132 +1,53 @@
-# 🛒 SmartShop ERP System
+<div align="center">
 
-## 📋 نظرة عامة على المشروع
+# 🛒 SmartShop ERP
 
-**SmartShop ERP** هو نظام إدارة متكامل للمتاجر الإلكترونية مبني بأحدث التقنيات، يوفر حلول شاملة لإدارة المنتجات، الطلبات، الفواتير، الشحن، والتسويق بالعمولة.
+**An advanced E-Commerce ERP System** built with **Laravel, Vue.js, TailwindCSS, and MySQL**.  
+It empowers online stores to manage their **products, orders, customers, affiliates, inventory, invoices, shipping, and reports** — all in one powerful dashboard.
 
-## ✨ المميزات الرئيسية
-
-### 🛍️ إدارة المتجر
-- إدارة المنتجات والتصنيفات
-- إدارة المخزون والطلبات
-- نظام الفواتير والمدفوعات
-- تتبع الشحن والتوصيل
-
-### 👥 إدارة المستخدمين
-- نظام أدوار وصلاحيات متقدم
-- لوحة تحكم للمديرين
-- نظام التسويق بالعمولة
-- إدارة العملاء
-
-### 📊 التقارير والإحصائيات
-- لوحة تحكم تفاعلية
-- تقارير المبيعات والأرباح
-- إحصائيات المنتجات الأكثر مبيعاً
-- تحليل سلوك العملاء
-
-## 🏗️ البنية التقنية
-
-### Backend (Laravel 10)
-- **Framework**: Laravel 10
-- **Database**: MySQL/PostgreSQL
-- **Authentication**: Laravel Sanctum
-- **API**: RESTful API
-- **Testing**: PHPUnit
-
-### Frontend (Vue.js 3)
-- **Framework**: Vue.js 3 + Composition API
-- **Build Tool**: Vite
-- **Styling**: Tailwind CSS
-- **State Management**: Pinia
-- **Router**: Vue Router 4
-
-## 🚀 التثبيت والتشغيل
-
-### المتطلبات الأساسية
-- PHP 8.1+
-- Composer
-- Node.js 18+
-- MySQL 8.0+ أو PostgreSQL 13+
-- Redis (اختياري)
-
-### خطوات التثبيت
-
-#### 1. استنساخ المشروع
-```bash
-git clone https://github.com/yourusername/smartshop-erp.git
-cd smartshop-erp
-```
-
-#### 2. إعداد Backend (Laravel)
-```bash
-cd api
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate --seed
-php artisan serve
-```
-
-#### 3. إعداد Frontend (Vue.js)
-```bash
-cd ../frontend
-npm install
-npm run dev
-```
-
-## 📁 هيكل المشروع
-
-```
-smartshop-erp/
-├── api/                    # Laravel Backend
-├── frontend/              # Vue.js Frontend
-├── docs/                  # التوثيق
-└── README.md              # هذا الملف
-```
-
-## 🔐 الأدوار والصلاحيات
-
-| الدور | الوصف |
-|-------|-------|
-| Super Admin | صلاحيات كاملة على النظام |
-| Store Manager | إدارة المتجر والمنتجات |
-| Accountant | إدارة الفواتير والمدفوعات |
-| Shipping Agent | إدارة الشحن والتوصيل |
-| Affiliate | التسويق بالعمولة |
-| Customer | تصفح وشراء المنتجات |
-
-## 📚 التوثيق
-
-- [دليل البنية البرمجية](docs/architecture.md)
-- [توثيق API](docs/api-endpoints.md)
-- [دليل الصلاحيات](docs/roles-permissions.md)
-- [مخطط قاعدة البيانات](docs/db-schema.drawio)
-
-## 🤝 المساهمة
-
-نرحب بمساهماتكم! يرجى قراءة [دليل المساهمة](CONTRIBUTING.md) قبل البدء.
-
-### خطوات المساهمة
-1. Fork المشروع
-2. إنشاء branch جديد (`git checkout -b feature/amazing-feature`)
-3. Commit التغييرات (`git commit -m 'Add amazing feature'`)
-4. Push إلى Branch (`git push origin feature/amazing-feature`)
-5. فتح Pull Request
-
-## 📄 الترخيص
-
-هذا المشروع مرخص تحت رخصة MIT - انظر ملف [LICENSE](LICENSE) للتفاصيل.
-
-## 📞 الدعم
-
-- 📧 البريد الإلكتروني: support@smartshop-erp.com
-- 💬 Discord: [انضم إلى مجتمعنا](https://discord.gg/smartshop-erp)
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/smartshop-erp/issues)
-
-## 🙏 الشكر
-
-شكر خاص لجميع المساهمين والمطورين الذين ساعدوا في تطوير هذا المشروع.
+</div>
 
 ---
 
-**Made with ❤️ by the SmartShop Team** 
+## 📦 Features
+
+- ✅ RESTful API (Laravel 11)
+- 🎨 Responsive UI (Vue 3 + Tailwind)
+- 🧾 Invoice & Order Management
+- 📦 Inventory with low stock alerts
+- 🧮 Accounting: Expenses, Income & P&L
+- 🔐 Role & Permission System (Super Admin, Store Manager, Customer, Affiliate, etc.)
+- 🔗 Affiliate & Referral Tracking
+- 🚚 Shipping Management with status tracking
+- 📊 Admin Dashboard with KPIs and charts
+- 🧾 Return & Replacement requests
+- 🏷️ Discount Coupons & Offers
+
+---
+
+## 🧠 Tech Stack
+
+| Layer        | Tools |
+|--------------|-------|
+| Backend      | Laravel 11, Sanctum, Eloquent |
+| Frontend     | Vue.js 3 (Composition API), Vue Router, Pinia |
+| UI Framework | TailwindCSS 3 |
+| Database     | MySQL |
+| API Auth     | Laravel Sanctum |
+| Dev Tools    | Vite, Axios, Git, Postman |
+
+---
+
+## 🖼️ Screenshots
+
+> Coming soon – Demo GIFs, UI snapshots, and DB schema map.
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/smartshop-erp.git
+cd smartshop-erp
